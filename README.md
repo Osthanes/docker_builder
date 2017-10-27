@@ -1,4 +1,4 @@
-# IBM DevOps Services Pipeline Extension for Docker Build
+# DEPRECATED - IBM DevOps Services Pipeline Extension for Docker Build
 
 ## Overview
 --------
