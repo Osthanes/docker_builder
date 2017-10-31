@@ -178,6 +178,11 @@ popd >/dev/null
 source ${EXT_DIR}/utilities/ice_utils.sh
 source ${EXT_DIR}/utilities/logging_utils.sh
 
+#################################
+# Show deprecated message       #
+#################################
+log_and_echo "$ERROR" "ATTENTION: This job type has been DEPRECATED. Please use the 'Container Registry' build type instead."
+
 ########################################################################
 # Fix timestamps so that caching will be leveraged on the remove host  #
 ########################################################################
